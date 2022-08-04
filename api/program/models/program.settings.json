@@ -295,6 +295,10 @@
           "localized": true
         }
       }
+    },
+    "index_number": {
+      "via": "program",
+      "model": "index-number"
     }
   }
 }

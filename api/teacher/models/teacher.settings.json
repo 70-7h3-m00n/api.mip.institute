@@ -41,6 +41,10 @@
     "programs": {
       "via": "teachers",
       "collection": "program"
+    },
+    "index_number": {
+      "via": "teacher",
+      "model": "index-number"
     }
   }
 }
