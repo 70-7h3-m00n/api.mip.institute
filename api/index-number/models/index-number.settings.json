@@ -16,8 +16,8 @@
       "type": "biginteger"
     },
     "program": {
-      "model": "program",
-      "via": "index_number"
+      "via": "index_number",
+      "model": "program"
     },
     "review": {
       "model": "review",
