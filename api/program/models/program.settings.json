@@ -317,6 +317,14 @@
         }
       },
       "type": "richtext"
+    },
+    "programOverviewTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
