@@ -309,6 +309,14 @@
         }
       },
       "component": "shared.seo"
+    },
+    "programOverview": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
