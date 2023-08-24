@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "unique_reviews",
   "info": {
-    "name": "UniqueReview"
+    "name": "UniqueReview",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,19 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Story": {
+    "story": {
       "type": "richtext"
     },
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Profession": {
+    "profession": {
       "type": "string"
     },
-    "Picture": {
+    "picture": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -36,6 +37,10 @@
     "program": {
       "via": "unique_reviews",
       "model": "program"
+    },
+    "index_number": {
+      "model": "index-number",
+      "via": "unique_review"
     }
   }
 }

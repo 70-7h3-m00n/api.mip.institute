@@ -30,6 +30,10 @@
     "webinar": {
       "model": "webinar",
       "via": "index_number"
+    },
+    "unique_review": {
+      "via": "index_number",
+      "model": "unique-review"
     }
   }
 }

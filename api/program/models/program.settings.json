@@ -327,8 +327,8 @@
       "type": "richtext"
     },
     "unique_reviews": {
-      "collection": "unique-review",
-      "via": "program"
+      "via": "program",
+      "collection": "unique-review"
     }
   }
 }
