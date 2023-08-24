@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "unique_reviews",
+  "info": {
+    "name": "UniqueReview"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Story": {
+      "type": "richtext"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Profession": {
+      "type": "string"
+    },
+    "Picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
