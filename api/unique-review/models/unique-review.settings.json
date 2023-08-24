@@ -32,6 +32,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "program": {
+      "via": "unique_reviews",
+      "model": "program"
     }
   }
 }
