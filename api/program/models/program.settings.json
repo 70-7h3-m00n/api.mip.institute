@@ -46,8 +46,8 @@
         }
       },
       "type": "uid",
-      "targetField": "title",
-      "required": false
+      "required": false,
+      "targetField": "title"
     },
     "studyForm": {
       "pluginOptions": {
@@ -329,6 +329,11 @@
     "unique_reviews": {
       "via": "program",
       "collection": "unique-review"
+    },
+    "requests": {
+      "via": "programs",
+      "collection": "requests",
+      "dominant": true
     }
   }
 }
