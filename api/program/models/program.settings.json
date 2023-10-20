@@ -334,6 +334,15 @@
       "via": "programs",
       "collection": "requests",
       "dominant": true
+    },
+    "forWhomSubtitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "default": "Программа точно подойдет тем, кто хочет:"
     }
   }
 }
