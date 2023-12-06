@@ -9,17 +9,18 @@ const slugify = require('slugify')
 
 
 module.exports = {
-  lifecycles: {
-  beforeCreate: async data => {
-    data.title && ((data.slug = slugify(data.title, { lower: true })), 'slug')
-      data.studyField &&
-        (data.studyFieldSlug =
-          slugify(data.studyField, { lower: true }) || 'studyFieldSlug')
-  },
-  beforeUpdate: async (params, data) => {
-    data.title && (data.slug = slugify(data.title, { lower: true }) || 'slug')
-      data.studyField &&
-        (data.studyFieldSlug =
-          slugify(data.studyField, { lower: true }) || 'studyFieldSlug')
-  }
-}};
+//   lifecycles: {
+//   beforeCreate: async data => {
+//     data.title && ((data.slug = slugify(data.title, { lower: true })), 'slug')
+//       data.studyField &&
+//         (data.studyFieldSlug =
+//           slugify(data.studyField, { lower: true }) || 'studyFieldSlug')
+//   },
+//   beforeUpdate: async (params, data) => {
+//     data.title && (data.slug = slugify(data.title, { lower: true }) || 'slug')
+//       data.studyField &&
+//         (data.studyFieldSlug =
+//           slugify(data.studyField, { lower: true }) || 'studyFieldSlug')
+//   }
+// }
+};
