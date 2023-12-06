@@ -101,6 +101,7 @@
       "via": "related_seminars"
     },
     "studyFieldSlug": {
+      "targetField": "studyField",
       "pluginOptions": {
         "i18n": {
           "localized": true
