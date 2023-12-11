@@ -41,7 +41,6 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -59,7 +58,6 @@
     "slug": {
       "type": "uid",
       "targetField": "title",
-      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -68,7 +66,6 @@
     },
     "studyField": {
       "type": "string",
-      "unique": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -102,7 +99,6 @@
       "via": "related_seminars"
     },
     "studyFieldSlug": {
-      "unique": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
