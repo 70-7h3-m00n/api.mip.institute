@@ -102,6 +102,18 @@
     },
     "teacher": {
       "model": "teacher"
+    },
+    "color": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "violet"
+      ]
     }
   }
 }
