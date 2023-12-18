@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blog_subtitles",
+  "info": {
+    "name": "subtitle",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "richtext"
+    },
+    "color": {
+      "model": "color"
+    }
+  }
+}
