@@ -25,7 +25,10 @@
       "type": "dynamiczone",
       "components": [
         "blog.text-image-block",
-        "blog.text-block"
+        "blog.text-block",
+        "blog.subtitle",
+        "blog.full-colored-text-block",
+        "blog.text-block-with-background"
       ]
     },
     "title": {
