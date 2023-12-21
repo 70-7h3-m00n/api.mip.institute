@@ -84,8 +84,7 @@
       },
       "type": "dynamiczone",
       "components": [
-        "blog.text-block",
-        "blog.content-block"
+        "blog.text-block"
       ]
     },
     "events": {

@@ -28,7 +28,15 @@
         "blog.text-block",
         "blog.subtitle",
         "blog.full-colored-text-block",
-        "blog.text-block-with-background"
+        "blog.text-block-with-background",
+        "blog.list",
+        "blog.teacher-comment",
+        "blog.single-image-block",
+        "blog.comment-block",
+        "blog.list-with-title",
+        "blog.related-programs",
+        "blog.list-with-background-and-title",
+        "blog.big-size-text"
       ]
     },
     "title": {
