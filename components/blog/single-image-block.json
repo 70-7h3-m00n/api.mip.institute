@@ -1,13 +1,12 @@
 {
-  "collectionName": "components_blog_text_image_blocks",
+  "collectionName": "components_blog_single_image_blocks",
   "info": {
-    "name": "text image block",
-    "icon": "address-card",
-    "description": ""
+    "name": "singleImageBlock",
+    "icon": "file-download"
   },
   "options": {},
   "attributes": {
-    "image": {
+    "picture": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -19,8 +18,8 @@
       "required": false,
       "pluginOptions": {}
     },
-    "text": {
-      "type": "richtext"
+    "alternativeText": {
+      "type": "string"
     }
   }
 }
