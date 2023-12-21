@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/seminars",
-      "handler": "seminar.find",
+      "path": "/blog-icons",
+      "handler": "blog-icon.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/seminars/count",
-      "handler": "seminar.count",
+      "path": "/blog-icons/count",
+      "handler": "blog-icon.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/seminars/:id",
-      "handler": "seminar.findOne",
+      "path": "/blog-icons/:id",
+      "handler": "blog-icon.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/seminars",
-      "handler": "seminar.create",
+      "path": "/blog-icons",
+      "handler": "blog-icon.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/seminars/:id",
-      "handler": "seminar.update",
+      "path": "/blog-icons/:id",
+      "handler": "blog-icon.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/seminars/:id",
-      "handler": "seminar.delete",
+      "path": "/blog-icons/:id",
+      "handler": "blog-icon.delete",
       "config": {
         "policies": []
       }

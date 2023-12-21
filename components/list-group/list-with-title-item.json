@@ -2,18 +2,19 @@
   "collectionName": "components_list_group_list_with_title_items",
   "info": {
     "name": "listWithTitleItem",
-    "icon": "arrow-circle-right"
+    "icon": "arrow-circle-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "icon": {
-      "model": "icon"
-    },
     "title": {
       "type": "string"
     },
     "text": {
       "type": "richtext"
+    },
+    "icon": {
+      "model": "blog-icon"
     }
   }
 }
