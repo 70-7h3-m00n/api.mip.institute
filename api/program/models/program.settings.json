@@ -210,8 +210,8 @@
       "required": true
     },
     "teachers": {
-      "collection": "teacher",
       "via": "programs",
+      "collection": "teacher",
       "dominant": true
     },
     "typeFullLabel": {
