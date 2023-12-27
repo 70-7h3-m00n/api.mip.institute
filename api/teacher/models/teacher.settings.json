@@ -45,6 +45,10 @@
     "index_number": {
       "via": "teacher",
       "model": "index-number"
+    },
+    "position": {
+      "type": "string",
+      "default": "Психолог"
     }
   }
 }

@@ -24,8 +24,8 @@
       "via": "index_number"
     },
     "teacher": {
-      "model": "teacher",
-      "via": "index_number"
+      "via": "index_number",
+      "model": "teacher"
     },
     "webinar": {
       "model": "webinar",

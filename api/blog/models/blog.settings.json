@@ -81,14 +81,6 @@
       },
       "type": "string"
     },
-    "author": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "programs": {
       "collection": "program"
     },
@@ -124,6 +116,9 @@
     },
     "color": {
       "model": "color"
+    },
+    "blogAuthor": {
+      "model": "author"
     }
   }
 }
