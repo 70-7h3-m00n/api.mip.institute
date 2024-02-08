@@ -114,11 +114,16 @@
       },
       "type": "date"
     },
-    "color": {
-      "model": "color"
-    },
     "blogAuthor": {
       "model": "author"
+    },
+    "readTime": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
     }
   }
 }
