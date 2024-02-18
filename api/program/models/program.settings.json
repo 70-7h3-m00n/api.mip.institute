@@ -343,6 +343,15 @@
       },
       "type": "richtext",
       "default": "Программа точно подойдет тем, кто хочет:"
+    },
+    "isEditable": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false
     }
   }
 }
