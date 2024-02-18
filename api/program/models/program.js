@@ -10,6 +10,7 @@ const slugify = require('slugify')
 module.exports = {
   lifecycles: {
     beforeCreate: async data => {
+      
       data.title && ((data.slug = slugify(data.title, { lower: true })), 'slug')
       data.studyField &&
         (data.studyFieldSlug =
@@ -30,7 +31,11 @@ module.exports = {
           'Дополнительная профессиональная программа профессиональной переподготовки')
     },
     beforeUpdate: async (params, data) => {
-      data.title && (data.slug = slugify(data.title, { lower: true }) || 'slug')
+      const isEditable = data.isEditable
+      if(!isEditable){
+        data.title && (data.slug = slugify(data.title, { lower: true }) || 'slug')
+      }
+      
       data.studyField &&
         (data.studyFieldSlug =
           slugify(data.studyField, { lower: true }) || 'studyFieldSlug')
