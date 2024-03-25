@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blog_tables",
+  "info": {
+    "name": "table",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "row": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.row"
+    }
+  }
+}
