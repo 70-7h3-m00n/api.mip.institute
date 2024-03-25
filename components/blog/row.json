@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blog_rows",
+  "info": {
+    "name": "row",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "record": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.record"
+    }
+  }
+}

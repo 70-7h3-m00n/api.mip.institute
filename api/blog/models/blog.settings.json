@@ -36,7 +36,8 @@
         "blog.list-with-title",
         "blog.related-programs",
         "blog.list-with-background-and-title",
-        "blog.big-size-text"
+        "blog.big-size-text",
+        "blog.table"
       ]
     },
     "title": {
