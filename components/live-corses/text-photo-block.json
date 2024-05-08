@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_live_corses_text_photo_blocks",
+  "info": {
+    "name": "textPhotoBlock",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "txt": {
+      "type": "string"
+    },
+    "photo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "size": {
+      "type": "biginteger"
+    },
+    "color": {
+      "model": "color"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_live_corses_lines",
+  "info": {
+    "name": "line",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "repeatBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "live-corses.text-photo-block"
+    }
+  }
+}

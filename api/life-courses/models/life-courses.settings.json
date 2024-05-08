@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "life_courses",
+  "info": {
+    "name": "lifeCourses",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "article": {
+      "type": "dynamiczone",
+      "components": [
+        "live-corses.block",
+        "live-corses.points"
+      ]
+    }
+  }
+}
