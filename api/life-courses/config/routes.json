@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/life-courses",
+      "handler": "life-courses.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/life-courses/count",
+      "handler": "life-courses.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/life-courses/:id",
+      "handler": "life-courses.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/life-courses",
+      "handler": "life-courses.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/life-courses/:id",
+      "handler": "life-courses.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/life-courses/:id",
+      "handler": "life-courses.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_live_corses_medalions",
+  "info": {
+    "name": "medalion",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

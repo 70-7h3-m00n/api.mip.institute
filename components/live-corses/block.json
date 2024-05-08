@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_live_corses_blocks",
+  "info": {
+    "name": "block",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "line": {
+      "type": "component",
+      "repeatable": true,
+      "component": "live-corses.line"
+    }
+  }
+}

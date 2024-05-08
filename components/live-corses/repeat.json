@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_live_corses_repeats",
+  "info": {
+    "name": "repeat",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "textPhoto": {
+      "type": "component",
+      "repeatable": true,
+      "component": "live-corses.text-photo-block"
+    }
+  }
+}
