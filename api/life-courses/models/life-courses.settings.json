@@ -41,10 +41,12 @@
       "type": "date"
     },
     "previewOnly": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "courseOpened": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "studyField": {
       "type": "string"
