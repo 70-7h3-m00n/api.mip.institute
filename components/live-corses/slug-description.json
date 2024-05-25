@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_live_corses_slug_descriptions",
+  "info": {
+    "name": "slug-description",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "live-corses.description"
+    }
+  }
+}

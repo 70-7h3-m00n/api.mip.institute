@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_live_corses_descriptions",
+  "info": {
+    "name": "description",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
