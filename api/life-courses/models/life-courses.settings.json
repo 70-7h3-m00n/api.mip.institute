@@ -58,6 +58,21 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.seo"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "slugDescription": {
+      "type": "component",
+      "repeatable": true,
+      "component": "live-corses.slug-description"
+    },
+    "isPopular": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
