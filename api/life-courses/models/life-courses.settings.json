@@ -24,6 +24,38 @@
         "live-corses.block",
         "live-corses.points"
       ]
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "date": {
+      "type": "date"
+    },
+    "previewOnly": {
+      "type": "boolean"
+    },
+    "courseOpened": {
+      "type": "boolean"
+    },
+    "studyField": {
+      "type": "string"
+    },
+    "studyFieldSlug": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
     }
   }
 }
