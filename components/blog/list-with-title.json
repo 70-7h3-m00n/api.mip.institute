@@ -13,7 +13,7 @@
       "component": "list-group.list-with-title-item"
     },
     "icon": {
-      "model": "blog-icon"
+      "type": "string"
     }
   }
 }
