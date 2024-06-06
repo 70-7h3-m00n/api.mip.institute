@@ -17,7 +17,7 @@
       "type": "richtext"
     },
     "borderColor": {
-      "model": "color"
+      "type": "string"
     }
   }
 }

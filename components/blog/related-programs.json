@@ -13,13 +13,13 @@
     "programs": {
       "collection": "program"
     },
-    "borderColor": {
-      "model": "color"
-    },
     "textItem": {
       "type": "component",
       "repeatable": true,
       "component": "blog.text"
+    },
+    "borderColor": {
+      "type": "string"
     }
   }
 }
