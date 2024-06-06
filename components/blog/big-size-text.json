@@ -11,7 +11,7 @@
       "type": "richtext"
     },
     "textColor": {
-      "model": "color"
+      "type": "string"
     }
   }
 }

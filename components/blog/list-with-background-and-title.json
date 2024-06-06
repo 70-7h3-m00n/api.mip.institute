@@ -12,17 +12,17 @@
       "repeatable": true,
       "component": "blog.list-item"
     },
-    "backgroundColor": {
-      "model": "color"
-    },
-    "lineColor": {
-      "model": "color"
-    },
     "title": {
       "type": "richtext"
     },
+    "lineColor": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
     "icon": {
-      "model": "blog-icon"
+      "type": "richtext"
     }
   }
 }

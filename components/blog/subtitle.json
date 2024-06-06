@@ -10,11 +10,13 @@
     "subtitle": {
       "type": "richtext"
     },
-    "color": {
-      "model": "color"
-    },
     "subtitleSlug": {
       "type": "string"
+    },
+    "color": {
+      "type": "string",
+      "default": "#6F01C6",
+      "required": true
     }
   }
 }
