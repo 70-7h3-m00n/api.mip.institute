@@ -11,7 +11,8 @@
       "type": "string"
     },
     "icon": {
-      "type": "richtext"
+      "type": "richtext",
+      "default": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" fill=\"none\" preserveAspectRatio=\"xMidYMid meet\">   <rect x=\"0.5\" y=\"0.5\" width=\"62\" height=\"62\" rx=\"31.5\" stroke=\"#6F01C6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>   <path d=\"M25.9453 32.865L30.2696 37.1893L39.7832 27.6758\" stroke=\"#7104C4\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/> </svg>"
     }
   }
 }
