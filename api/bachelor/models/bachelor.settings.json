@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bachelors",
+  "info": {
+    "name": "bachelor",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "forWhom": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
