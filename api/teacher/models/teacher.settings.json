@@ -64,6 +64,10 @@
     },
     "experience": {
       "type": "string"
+    },
+    "bachelors": {
+      "via": "teachers",
+      "collection": "bachelor"
     }
   }
 }

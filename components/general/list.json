@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_lists",
+  "info": {
+    "name": "list",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
