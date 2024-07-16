@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_texts",
+  "info": {
+    "name": "text",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
