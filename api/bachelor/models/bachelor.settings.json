@@ -23,6 +23,24 @@
     },
     "slug": {
       "type": "string"
+    },
+    "shortContents": {
+      "type": "richtext"
+    },
+    "programs": {
+      "collection": "program",
+      "via": "bachelors",
+      "dominant": true
+    },
+    "teachers": {
+      "collection": "teacher",
+      "via": "bachelors",
+      "dominant": true
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.list"
     }
   }
 }

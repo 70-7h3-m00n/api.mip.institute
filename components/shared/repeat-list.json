@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_repeat_lists",
+  "info": {
+    "name": "repeatList",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text"
+    }
+  }
+}
