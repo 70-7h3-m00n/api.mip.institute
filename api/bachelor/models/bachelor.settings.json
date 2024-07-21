@@ -41,6 +41,18 @@
       "type": "component",
       "repeatable": true,
       "component": "general.list"
+    },
+    "onlineFullPrice": {
+      "type": "integer"
+    },
+    "onlinePriceWithDiscount": {
+      "type": "integer"
+    },
+    "offlineFullPrice": {
+      "type": "integer"
+    },
+    "offlinePriceWithDiscount": {
+      "type": "integer"
     }
   }
 }
