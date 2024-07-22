@@ -32,6 +32,10 @@
     },
     "title": {
       "type": "string"
+    },
+    "bachelors": {
+      "via": "additional_specializations",
+      "collection": "bachelor"
     }
   }
 }
