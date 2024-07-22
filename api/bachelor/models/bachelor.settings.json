@@ -104,6 +104,9 @@
     },
     "fullDescription": {
       "type": "richtext"
+    },
+    "additional_specializations": {
+      "collection": "additional-specializations"
     }
   }
 }

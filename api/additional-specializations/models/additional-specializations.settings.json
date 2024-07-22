@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "additional_specializations",
+  "info": {
+    "name": "additionalSpecializations",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroPicture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "admissionDate": {
+      "type": "richtext"
+    },
+    "studyHours": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
