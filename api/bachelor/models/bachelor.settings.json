@@ -106,7 +106,9 @@
       "type": "richtext"
     },
     "additional_specializations": {
-      "collection": "additional-specializations"
+      "collection": "additional-specializations",
+      "via": "bachelors",
+      "dominant": true
     }
   }
 }
