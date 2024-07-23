@@ -109,6 +109,11 @@
       "via": "bachelors",
       "collection": "additional-specializations",
       "dominant": true
+    },
+    "qnas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.qn-a"
     }
   }
 }
