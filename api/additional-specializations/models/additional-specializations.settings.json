@@ -36,6 +36,11 @@
     "bachelors": {
       "via": "additional_specializations",
       "collection": "bachelor"
+    },
+    "record": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.record"
     }
   }
 }
