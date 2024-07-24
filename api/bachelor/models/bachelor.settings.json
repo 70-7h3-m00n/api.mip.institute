@@ -114,6 +114,9 @@
       "type": "component",
       "repeatable": true,
       "component": "general.qn-a"
+    },
+    "workInProgress": {
+      "type": "boolean"
     }
   }
 }
