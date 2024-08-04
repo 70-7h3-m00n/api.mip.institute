@@ -73,6 +73,9 @@
     "isPopular": {
       "type": "boolean",
       "default": false
+    },
+    "lmsId": {
+      "type": "string"
     }
   }
 }
