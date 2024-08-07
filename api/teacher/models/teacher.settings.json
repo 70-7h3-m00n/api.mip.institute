@@ -68,6 +68,9 @@
     "bachelors": {
       "via": "teachers",
       "collection": "bachelor"
+    },
+    "achievementsJournal": {
+      "type": "richtext"
     }
   }
 }
