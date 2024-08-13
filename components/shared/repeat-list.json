@@ -2,7 +2,8 @@
   "collectionName": "components_shared_repeat_lists",
   "info": {
     "name": "repeatList",
-    "icon": "arrow-left"
+    "icon": "arrow-left",
+    "description": ""
   },
   "options": {},
   "attributes": {

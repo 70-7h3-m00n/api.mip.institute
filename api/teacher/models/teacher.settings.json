@@ -71,6 +71,10 @@
     },
     "achievementsJournal": {
       "type": "richtext"
+    },
+    "practical_training": {
+      "via": "teachers",
+      "model": "practical-training"
     }
   }
 }
