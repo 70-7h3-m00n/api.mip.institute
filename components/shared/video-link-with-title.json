@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_video_link_with_titles",
+  "info": {
+    "name": "videoLinkWithTitle",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "videoLink": {
+      "type": "string"
+    }
+  }
+}

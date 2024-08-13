@@ -22,7 +22,9 @@
       "type": "dynamiczone",
       "components": [
         "live-corses.block",
-        "live-corses.points"
+        "live-corses.points",
+        "shared.repeat-list-with-title",
+        "shared.video-link-with-title"
       ]
     },
     "picture": {
@@ -76,6 +78,11 @@
     },
     "lmsId": {
       "type": "string"
+    },
+    "qnas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.qn-a"
     }
   }
 }
