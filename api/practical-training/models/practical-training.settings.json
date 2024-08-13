@@ -1,0 +1,121 @@
+{
+  "kind": "collectionType",
+  "collectionName": "practical_trainings",
+  "info": {
+    "name": "practicalTraining",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "practicalList": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog.list-with-title"
+    },
+    "heroPicture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "qnas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.qn-a"
+    },
+    "termsPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.text"
+    },
+    "briefProgram": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.repeat-list-with-title"
+    },
+    "courseResult": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.repeat-list"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "whatYouWillLearn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.repeat-list"
+    },
+    "whatInProgram": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.repeat-list"
+    },
+    "whatYouWillLearnPhoto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "programDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "practical.program-description"
+    },
+    "descriptionCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.list-with-title-and-photo"
+    },
+    "diploma1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "teachers": {
+      "collection": "teacher",
+      "via": "practical_training"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_list_with_title_and_photos",
+  "info": {
+    "name": "listWithTitleAndPhoto",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.item"
+    }
+  }
+}

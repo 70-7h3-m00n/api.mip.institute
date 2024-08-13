@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/practical-trainings",
+      "handler": "practical-training.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/practical-trainings/count",
+      "handler": "practical-training.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/practical-trainings/:id",
+      "handler": "practical-training.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/practical-trainings",
+      "handler": "practical-training.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/practical-trainings/:id",
+      "handler": "practical-training.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/practical-trainings/:id",
+      "handler": "practical-training.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

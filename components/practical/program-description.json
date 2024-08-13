@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_practical_program_descriptions",
+  "info": {
+    "name": "programDescription",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subtitle": {
+      "type": "richtext"
+    },
+    "subtitleColor": {
+      "type": "richtext"
+    }
+  }
+}
