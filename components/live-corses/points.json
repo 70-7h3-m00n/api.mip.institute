@@ -2,7 +2,8 @@
   "collectionName": "components_live_corses_points",
   "info": {
     "name": "points",
-    "icon": "anchor"
+    "icon": "anchor",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,7 +19,7 @@
       "component": "live-corses.medalion"
     },
     "color": {
-      "model": "color"
+      "type": "string"
     }
   }
 }
