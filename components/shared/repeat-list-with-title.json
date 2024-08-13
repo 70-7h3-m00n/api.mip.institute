@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_repeat_list_with_titles",
+  "info": {
+    "name": "repeatListWithTitle",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "record": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.record"
+    }
+  }
+}
