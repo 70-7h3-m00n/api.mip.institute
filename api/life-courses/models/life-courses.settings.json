@@ -83,6 +83,13 @@
       "type": "component",
       "repeatable": true,
       "component": "general.qn-a"
+    },
+    "unique_reviews": {
+      "collection": "unique-review",
+      "via": "life_course"
+    },
+    "review_subtitle": {
+      "type": "string"
     }
   }
 }
