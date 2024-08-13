@@ -41,6 +41,10 @@
     "index_number": {
       "model": "index-number",
       "via": "unique_review"
+    },
+    "life_course": {
+      "via": "unique_reviews",
+      "model": "life-courses"
     }
   }
 }
