@@ -116,6 +116,11 @@
     "teachers": {
       "collection": "teacher",
       "via": "practical_training"
+    },
+    "review": {
+      "type": "component",
+      "repeatable": true,
+      "component": "practical.review"
     }
   }
 }

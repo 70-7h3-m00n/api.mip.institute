@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_practical_slides",
+  "info": {
+    "name": "slide",
+    "icon": "balance-scale-right"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "richtext"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}
