@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_practical_reviews",
+  "info": {
+    "name": "review",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "practical.slide"
+    }
+  }
+}
