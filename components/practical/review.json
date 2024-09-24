@@ -2,7 +2,8 @@
   "collectionName": "components_practical_reviews",
   "info": {
     "name": "review",
-    "icon": "angry"
+    "icon": "angry",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,21 @@
       "type": "component",
       "repeatable": true,
       "component": "practical.slide"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
