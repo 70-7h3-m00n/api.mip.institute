@@ -1,15 +1,11 @@
 {
-  "kind": "collectionType",
-  "collectionName": "blog_icons",
+  "collectionName": "components_shared_image_with_repeatable_texts",
   "info": {
-    "name": "blogIcon"
+    "name": "imageWithRepeatableText",
+    "icon": "basketball-ball",
+    "description": ""
   },
-  "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
+  "options": {},
   "attributes": {
     "picture": {
       "model": "file",
@@ -23,10 +19,12 @@
       "required": false,
       "pluginOptions": {}
     },
-    "name": {
-      "type": "string"
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text"
     },
-    "code": {
+    "title": {
       "type": "richtext"
     }
   }
