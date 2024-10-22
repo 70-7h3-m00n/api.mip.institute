@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lectoriums",
+  "info": {
+    "name": "lectorium",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "places": {
+      "type": "string"
+    },
+    "speaker": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-with-repeatable-text"
+    },
+    "whatYouWillLearn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-with-repeatable-text"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.qn-a"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

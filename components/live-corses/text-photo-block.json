@@ -24,9 +24,6 @@
     },
     "size": {
       "type": "biginteger"
-    },
-    "color": {
-      "model": "color"
     }
   }
 }

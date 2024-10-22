@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/blog-icons",
-      "handler": "blog-icon.find",
+      "path": "/lectoriums",
+      "handler": "lectorium.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/blog-icons/count",
-      "handler": "blog-icon.count",
+      "path": "/lectoriums/count",
+      "handler": "lectorium.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/blog-icons/:id",
-      "handler": "blog-icon.findOne",
+      "path": "/lectoriums/:id",
+      "handler": "lectorium.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/blog-icons",
-      "handler": "blog-icon.create",
+      "path": "/lectoriums",
+      "handler": "lectorium.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/blog-icons/:id",
-      "handler": "blog-icon.update",
+      "path": "/lectoriums/:id",
+      "handler": "lectorium.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/blog-icons/:id",
-      "handler": "blog-icon.delete",
+      "path": "/lectoriums/:id",
+      "handler": "lectorium.delete",
       "config": {
         "policies": []
       }
