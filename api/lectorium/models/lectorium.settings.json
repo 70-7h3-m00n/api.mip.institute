@@ -67,6 +67,12 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "targetDate": {
+      "type": "datetime"
+    },
+    "endTime": {
+      "type": "time"
     }
   }
 }
