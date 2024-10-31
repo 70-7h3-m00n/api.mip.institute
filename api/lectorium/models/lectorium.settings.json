@@ -73,6 +73,23 @@
     },
     "endTime": {
       "type": "time"
+    },
+    "reviewWithDate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.review-with-date"
+    },
+    "pdf": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
