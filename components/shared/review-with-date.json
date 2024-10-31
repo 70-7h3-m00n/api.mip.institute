@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_review_with_dates",
+  "info": {
+    "name": "reviewWithDate",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
