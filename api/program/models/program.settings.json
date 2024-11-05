@@ -59,7 +59,8 @@
       "enum": [
         "Blended",
         "Online",
-        "Fulltime"
+        "Fulltime",
+        "Zaochnaya"
       ],
       "required": true,
       "default": "Online"

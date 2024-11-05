@@ -28,8 +28,8 @@
       "type": "richtext"
     },
     "programs": {
-      "collection": "program",
       "via": "bachelors",
+      "collection": "program",
       "dominant": true
     },
     "teachers": {

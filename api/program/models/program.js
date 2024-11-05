@@ -16,9 +16,10 @@ module.exports = {
         (data.studyFieldSlug =
           slugify(data.studyField, { lower: true }) || 'studyFieldSlug')
 
-      data.studyForm === 'Blended' && (data.studyFormLabel = 'Очно-заочная')
-      data.studyForm === 'Online' && (data.studyFormLabel = 'Заочная')
-      data.studyForm === 'Fulltime' && (data.studyFormLabel = 'Очная')
+          data.studyForm === 'Blended' && (data.studyFormLabel = 'Очно-заочная')
+          data.studyForm === 'Online' && (data.studyFormLabel = 'Дистанционно')
+          data.studyForm === 'Fulltime' && (data.studyFormLabel = 'Очная')
+          data.studyForm === 'Zaochnaya' && (data.studyFormLabel = 'Заочно (онлайн)')
 
       data.type === 'Course' && (data.typeLabel = 'Курс')
       data.type === 'Profession' && (data.typeLabel = 'Профессия')
@@ -41,8 +42,9 @@ module.exports = {
           slugify(data.studyField, { lower: true }) || 'studyFieldSlug')
 
       data.studyForm === 'Blended' && (data.studyFormLabel = 'Очно-заочная')
-      data.studyForm === 'Online' && (data.studyFormLabel = 'Заочная')
+      data.studyForm === 'Online' && (data.studyFormLabel = 'Дистанционно')
       data.studyForm === 'Fulltime' && (data.studyFormLabel = 'Очная')
+      data.studyForm === 'Zaochnaya' && (data.studyFormLabel = 'Заочно (онлайн)')
 
       data.type === 'Course' && (data.typeLabel = 'Курс')
       data.type === 'Profession' && (data.typeLabel = 'Профессия')
