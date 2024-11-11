@@ -117,6 +117,14 @@
         "paid",
         "free"
       ]
+    },
+    "lectoriums": {
+      "collection": "lectorium",
+      "via": "lectorium"
+    },
+    "lectorium": {
+      "model": "lectorium",
+      "via": "lectoriums"
     }
   }
 }
