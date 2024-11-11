@@ -105,6 +105,18 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "label": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "online",
+        "offline",
+        "paid",
+        "free"
+      ]
     }
   }
 }
