@@ -105,6 +105,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "label": {
+      "type": "string"
     }
   }
 }
