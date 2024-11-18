@@ -377,6 +377,24 @@
     "bachelors": {
       "via": "programs",
       "collection": "bachelor"
+    },
+    "portfolio": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.portfolio"
+    },
+    "admissionDate": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
