@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_portfolios",
+  "info": {
+    "name": "portfolio",
+    "icon": "assistive-listening-systems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "profession": {
+      "type": "string"
+    },
+    "specialization": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "qualification": {
+      "type": "string"
+    },
+    "resumeSkills": {
+      "type": "richtext"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
