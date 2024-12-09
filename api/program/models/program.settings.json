@@ -76,7 +76,8 @@
         "Course",
         "Profession",
         "Practice",
-        "Bachelor"
+        "Bachelor",
+        "ShortTerm"
       ],
       "required": true,
       "default": "Course"
