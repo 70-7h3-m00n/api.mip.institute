@@ -115,8 +115,7 @@
         "online",
         "offline",
         "paid",
-        "free",
-        "outside"
+        "free"
       ]
     },
     "lectoriums": {
@@ -126,6 +125,13 @@
     "lectorium": {
       "model": "lectorium",
       "via": "lectoriums"
+    },
+    "isInternal": {
+      "type": "boolean",
+      "default": true
+    },
+    "eventAddress": {
+      "type": "string"
     }
   }
 }
