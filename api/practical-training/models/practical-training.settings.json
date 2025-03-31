@@ -121,6 +121,9 @@
       "type": "component",
       "repeatable": true,
       "component": "practical.review"
+    },
+    "shortDescription": {
+      "type": "text"
     }
   }
 }
