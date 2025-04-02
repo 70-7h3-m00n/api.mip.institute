@@ -122,6 +122,16 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "isPopular": {
+      "type": "boolean"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "updated",
+        "popular"
+      ]
     }
   }
 }

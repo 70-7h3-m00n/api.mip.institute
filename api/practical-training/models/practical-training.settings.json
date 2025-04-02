@@ -124,6 +124,16 @@
     },
     "shortDescription": {
       "type": "text"
+    },
+    "isPopular": {
+      "type": "boolean"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "updated",
+        "popular"
+      ]
     }
   }
 }
