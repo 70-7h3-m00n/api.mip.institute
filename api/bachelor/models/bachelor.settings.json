@@ -132,6 +132,12 @@
         "updated",
         "popular"
       ]
+    },
+    "OnlinePriceYear": {
+      "type": "integer"
+    },
+    "OflinePriceYear": {
+      "type": "integer"
     }
   }
 }
