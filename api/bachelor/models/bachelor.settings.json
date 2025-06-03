@@ -136,7 +136,7 @@
     "OnlinePriceYear": {
       "type": "integer"
     },
-    "OflinePriceYear": {
+    "OfflinePriceYear": {
       "type": "integer"
     }
   }
