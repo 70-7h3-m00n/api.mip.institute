@@ -1,0 +1,31 @@
+{
+  "collectionName": "Tariff",
+  "info": {
+    "name": "Tariff",
+    "icon": "gem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "practiceHours": {
+      "type": "string"
+    },
+    "monthlyPrice": {
+      "type": "string"
+    },
+    "yearlyPrice": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.feature-item"
+    }
+  }
+}
