@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_pricing_feature_items",
+  "info": {
+    "name": "FeatureItem",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

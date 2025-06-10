@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_pricing_bonuses",
+  "info": {
+    "name": "Bonuses",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "items": {
+      "type": "richtext"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
