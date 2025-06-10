@@ -425,7 +425,7 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "integer"
     },
     "studyHours": {
       "pluginOptions": {
@@ -433,7 +433,23 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "integer"
+    },
+    "studyHoursStandart": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
+    },
+    "studyMounthsDurationStandart": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
     }
   }
 }
