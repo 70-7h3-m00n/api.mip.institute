@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_program_modules",
+  "info": {
+    "name": "module",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "moduleName": {
+      "type": "string"
+    },
+    "studyHours": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

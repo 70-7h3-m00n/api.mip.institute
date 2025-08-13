@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_program_qualifications",
+  "info": {
+    "name": "qualification",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "specialization": {
+      "type": "string"
+    }
+  }
+}
