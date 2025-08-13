@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_program_abouts",
+  "info": {
+    "name": "about",
+    "icon": "angle-double-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "descriptionHeader": {
+      "type": "text"
+    },
+    "listTitle": {
+      "type": "richtext"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text"
+    },
+    "linkToMedia": {
+      "type": "string"
+    },
+    "listEnd": {
+      "type": "string"
+    }
+  }
+}
