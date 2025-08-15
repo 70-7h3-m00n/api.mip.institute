@@ -571,6 +571,16 @@
           "localized": true
         }
       }
+    },
+    "practicOrientedHours": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "program.practic-oriented-hours"
     }
   }
 }
