@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_numbers",
+  "info": {
+    "name": "number",
+    "icon": "biohazard"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "integer"
+    }
+  }
+}

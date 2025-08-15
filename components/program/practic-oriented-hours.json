@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_program_practic_oriented_hours",
+  "info": {
+    "name": "practicOrientedHours",
+    "icon": "stopwatch"
+  },
+  "options": {},
+  "attributes": {
+    "totalHours": {
+      "type": "integer"
+    },
+    "practicums": {
+      "type": "integer"
+    },
+    "intervisions": {
+      "type": "integer"
+    },
+    "balintGroups": {
+      "type": "integer"
+    },
+    "practicumsStandart": {
+      "type": "integer"
+    }
+  }
+}
