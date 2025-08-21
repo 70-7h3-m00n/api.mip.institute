@@ -581,6 +581,15 @@
         }
       },
       "component": "program.practic-oriented-hours"
+    },
+    "availableOnStandartTariffOnly": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false
     }
   }
 }
