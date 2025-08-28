@@ -425,7 +425,7 @@
           "localized": true
         }
       },
-      "type": "integer"
+      "type": "float"
     },
     "studyHours": {
       "pluginOptions": {
